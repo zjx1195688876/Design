@@ -1,0 +1,31 @@
+{
+  "name": "design",
+  "version": "0.2.0",
+  "description": "parse psd into html",
+  "main": "index.js",
+  "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjx1195688876/Design.git"
+  },
+  "keywords": [
+    "psd"
+  ],
+  "author": "zhangjinxin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zjx1195688876/Design/issues"
+  },
+  "homepage": "https://github.com/zjx1195688876/Design#readme",
+  "dependencies": {
+    "psd": "^3.1.0",
+    "regular": "^0.1.6",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.4.1"
+  }
+}
