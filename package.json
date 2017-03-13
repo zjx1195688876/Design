@@ -4,8 +4,8 @@
   "description": "parse psd into html",
   "main": "index.js",
   "scripts": {
-     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"webpack-dev-server --config src/js/core.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "webpack": "^2.2.1"
   },
   "devDependencies": {
+    "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1"
   }
 }
